@@ -33,8 +33,8 @@ $(document).mouseup(function (e) {
 $(document).ready(function() {
 
     $('.header').hover(function() {
-    	$('.sub-menu').slideDown(350)
+    	$('.sub-menu').stop(true, true).slideDown(350)
     }, function() {
-    	$('.sub-menu').slideUp(350)
+    	$('.sub-menu').stop(true, true).slideUp(350)
     });
 });

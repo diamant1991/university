@@ -26,3 +26,23 @@
          url('../fonts/MinionProBold.ttf') format('truetype'),
          url('../fonts/MinionProBold.svg#MinionProBold') format('svg');
 }
+
+@font-face {
+    font-family: 'lintel_italic';
+    src: url('../fonts/lintel_italic.eot');
+    src: url('../fonts/lintel_italic.eot') format('embedded-opentype'),
+         url('../fonts/lintel_italic.woff2') format('woff2'),
+         url('../fonts/lintel_italic.woff') format('woff'),
+         url('../fonts/lintel_italic.ttf') format('truetype'),
+         url('../fonts/lintel_italic.svg#lintel_italic') format('svg');
+}
+
+@font-face {
+    font-family: 'LintelBlack';
+    src: url('../fonts/LintelBlack.eot');
+    src: url('../fonts/LintelBlack.eot') format('embedded-opentype'),
+         url('../fonts/LintelBlack.woff2') format('woff2'),
+         url('../fonts/LintelBlack.woff') format('woff'),
+         url('../fonts/LintelBlack.ttf') format('truetype'),
+         url('../fonts/LintelBlack.svg#LintelBlack') format('svg');
+}

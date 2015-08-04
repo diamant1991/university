@@ -429,3 +429,232 @@
 .sub-menu a:hover {
   text-decoration: none;
 }
+.breadcrumbs {
+  font-family: 'LintelRegular';
+  font-size: 13px;
+}
+.breadcrumbs li {
+  float: left;
+}
+.breadcrumbs a {
+  color: #7070e1;
+}
+.content .left-block {
+  float: left;
+  width: 70%;
+}
+.content .right-block {
+  float: right;
+  width: 28%;
+}
+.news-img {
+  float: left;
+  width: 248px;
+}
+.news-wrapper {
+  margin-top: 25px;
+}
+.news {
+  padding-bottom: 55px;
+  border-bottom: 1px solid #c8c8c8;
+  padding-top: 50px;
+}
+.news:first-child {
+  padding-top: 0;
+}
+.news-desc {
+  float: right;
+  width: 420px;
+  padding-right: 20px;
+}
+.news-desc .date {
+  font-family: 'lintel_italic';
+  font-size: 16px;
+  color: #cfcfcf;
+}
+.news-desc h3 {
+  font-family: 'MinionProBold';
+  color: #292929;
+  text-decoration: underline;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.news-desc .text {
+  color: #292929;
+  font-family: 'LintelRegular';
+  font-size: 16px;
+}
+.news-desc .more {
+  display: block;
+  width: 130px;
+  height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-family: 'MinionProBold';
+  color: white;
+  background: #a6a6a6;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.preview .title {
+  margin-bottom: 25px;
+}
+.preview .title a {
+  color: #7070e1;
+  font-size: 13px;
+  font-family: 'LintelRegular';
+}
+.preview-block {
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  padding-right: 5px;
+  border: 1px solid #d0d0d0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.preview-block a {
+  color: #292929;
+  text-decoration: underline;
+  font-family: 'MinionProBold';
+  font-size: 17px;
+}
+.preview-block .text {
+  font-family: 'LintelRegular';
+  font-size: 13px;
+  color: #292929;
+  margin-top: 10px;
+}
+.preview-block .date {
+  font-family: 'LintelBlack';
+  color: #222324;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.preview-block ul {
+  font-family: 'LintelRegular';
+  font-size: 13px;
+  color: #292929;
+  list-style: disc;
+  margin-left: 15px;
+}
+.timetable {
+  margin-top: 60px;
+}
+.time-list > li {
+  font-size: 20px;
+  color: #292929;
+  font-family: 'LintelRegular';
+  float: left;
+  width: 16.6%;
+}
+.time-list > li:last-child .time-child {
+  border-right: 0;
+}
+.time-list > li h4 {
+  height: 80px;
+  padding-left: 50px;
+}
+.time-child {
+  text-transform: uppercase;
+  border-right: 1px solid #f7f7f7;
+  padding-left: 50px;
+}
+.time-child a {
+  font-size: 17px;
+  color: #7070e1;
+  font-family: 'LintelRegular';
+}
+.time-child li {
+  margin-bottom: 8px;
+}
+.img-block {
+  margin-top: 25px;
+}
+.img-block img {
+  margin-right: 25px;
+}
+.theses {
+  margin-top: 25px;
+  font-family: Arial, sans-serif;
+}
+.theses .title {
+  font-size: 17px;
+  font-family: Arial, sans-serif;
+  color: #09054c;
+  font-weight: 800;
+}
+.theses .left-block {
+  border-right: 1px solid #a2a2a2;
+  padding-right: 30px;
+}
+.theses h5 {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.these-list {
+  list-style: decimal;
+  margin-left: 20px;
+  font-size: 17px;
+  font-family: Arial, sans-serif;
+}
+.these-list li {
+  margin-top: 25px;
+  line-height: 1.2;
+}
+.info-block {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: black;
+}
+.info-block a {
+  color: black;
+}
+.info-block a:hover {
+  text-decoration: none;
+}
+.info-block li {
+  line-height: 1.5;
+}
+.info-list {
+  margin-top: 10px;
+}
+.info-social {
+  margin-top: 30px;
+}
+.left-social {
+  float: left;
+  margin-left: -10px;
+  padding-right: 20px;
+  border-right: 1px solid #b2b2b2;
+}
+.left-social li {
+  float: left;
+  margin-left: 10px;
+  opacity: 0.25;
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+.left-social li:hover {
+  opacity: 1;
+}
+.right-social {
+  float: left;
+  margin-left: -10px;
+  padding-left: 20px;
+}
+.right-social li {
+  float: left;
+  margin-left: 10px;
+  opacity: 0.25;
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+.right-social li:hover {
+  opacity: 1;
+}
