@@ -14,10 +14,11 @@
 }
 .slct {
   display: block;
-  border-radius: 5px;
-  background-color: white;
   width: 220px;
   height: 25px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   color: #c5c5c5;
   font-size: 12px;
   overflow: hidden;
@@ -25,12 +26,17 @@
   text-overflow: ellipsis;
   -o-text-overflow: ellipsis;
   text-decoration: none;
-  background-image: url(../images/gery-drop.png);
-  background-repeat: no-repeat;
-  background-position: 94%;
+  background: white url(../images/drop.png) no-repeat 5px 3px;
   font-family: 'LintelRegular';
+  padding-left: 40px;
+  padding-top: 6px;
+  -webkit-transition: border-radius 0.15s ease-in-out;
+  -moz-transition: border-radius 0.15s ease-in-out;
+  transition: border-radius 0.15s ease-in-out;
 }
 .slct.active {
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
 }
 .drop {
@@ -325,6 +331,7 @@
 .contact-text .tel {
   font-size: 20px;
   margin-bottom: 2px;
+  font-family: 'LintelBlack';
 }
 .contact-text .info {
   font-size: 12px;
@@ -586,6 +593,7 @@
   font-family: Arial, sans-serif;
   color: #09054c;
   font-weight: 800;
+  line-height: 1.2;
 }
 .theses .left-block {
   border-right: 1px solid #a2a2a2;
@@ -594,6 +602,12 @@
 .theses h5 {
   font-size: 17px;
   margin-bottom: 10px;
+}
+.theses .second-title {
+  color: black;
+  margin-top: 20px;
+  line-height: 1.2;
+  font-weight: 600;
 }
 .these-list {
   list-style: decimal;
@@ -656,5 +670,153 @@
   transition: opacity 0.2s ease;
 }
 .right-social li:hover {
+  opacity: 1;
+}
+.info-table {
+  font-family: Arail, sans-serif;
+  font-size: 14px;
+  margin-top: 35px;
+  color: #32332d;
+}
+.info-table a {
+  color: #086bce;
+}
+.info-table tr {
+  border: 1px solid #d4d4d4;
+}
+.info-table td {
+  vertical-align: top;
+  padding: 5px;
+  border-right: 1px solid #d4d4d4;
+}
+.info-table td:last-child {
+  text-align: center;
+  width: 250px;
+  line-height: 1.2;
+  border-right: 0;
+}
+.info-table td:first-child {
+  width: 30px;
+}
+.info-table td:nth-child(2) {
+  width: 290px;
+  line-height: 1.2;
+}
+.info-list-child {
+  padding-left: 20px;
+}
+.timetable-table {
+  width: 680px;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  margin-top: 30px;
+}
+.timetable-table td {
+  padding: 5px;
+  text-align: center;
+  border-right: 2px solid #97999c;
+  line-height: 1.2;
+  vertical-align: middle;
+}
+.timetable-table thead td {
+  background-color: #e7eaf2;
+}
+.timetable-table tr {
+  border: 2px solid #97999c;
+}
+.timetable-table .text {
+  background-color: #bcbcbc;
+}
+.timetable-table .date {
+  background-color: #e7eaf2;
+}
+.timetable-detail {
+  font-family: Arial, sans-serif;
+}
+.timetable-detail h4 {
+  font-weight: bold;
+  color: #0c4c86;
+  font-size: 18px;
+}
+.timetable-detail div.date {
+  font-weight: bold;
+  color: #0c4c86;
+  font-size: 16px;
+  margin-top: 25px;
+}
+.choice-week {
+  font-size: 14px;
+  padding-left: 20px;
+  padding-top: 25px;
+}
+.choice-week a {
+  color: black;
+}
+.choice-week li {
+  line-height: 1.3;
+  letter-spacing: 1.5px;
+}
+.choice-week ul {
+  margin-top: 25px;
+}
+.detail-wrapper {
+  margin-top: 40px;
+}
+.slide-container {
+  float: left;
+  width: 428px;
+}
+.slide-container #bx-pager {
+  margin-left: -10px;
+}
+.slide-container #bx-pager img {
+  width: 133px;
+  margin-left: 10px;
+}
+.slide-container .bx-wrapper {
+  margin-bottom: 15px;
+}
+.slide-container .bx-controls {
+  display: none;
+}
+.detail-desc {
+  float: right;
+  width: 560px;
+  font-family: Arial, sans-serif;
+}
+.detail-desc .date {
+  font-size: 19px;
+  font-weight: bold;
+  color: #b2b2b2;
+}
+.detail-desc .title {
+  color: #05006c;
+  font-weight: bold;
+  font-size: 19px;
+  margin-top: 5px;
+}
+.detail-text {
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.2;
+}
+.detail-text p {
+  margin-top: 20px;
+}
+.detail-social {
+  margin-top: 20px;
+}
+.detail-social li {
+  float: left;
+  margin-right: 10px;
+  color: #b6b6b6;
+  font-size: 12px;
+  font-style: italic;
+  opacity: 0.32;
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+.detail-social li:hover {
   opacity: 1;
 }
