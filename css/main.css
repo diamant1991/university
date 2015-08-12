@@ -46,7 +46,7 @@
   border-top: none;
   display: none;
   position: absolute;
-  z-index: 5;
+  z-index: 53;
   background: white;
   font-family: 'LintelRegular';
   font-size: 12px;
@@ -94,21 +94,28 @@
   float: left;
   margin-left: 7px;
 }
+.slide-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 785px;
+  padding-top: 480px;
+}
 .main-content {
   width: 100%;
   min-width: 1020px;
   position: relative;
-  padding-top: 180px;
-  padding-bottom: 105px;
-  background: url(../images/main-img.jpg) no-repeat 50%;
+  /* background: url(../images/main-img.jpg)no-repeat 50%; */
   background-size: cover;
 }
 .main-content-other {
   background: none;
+  padding-top: 180px;
+  padding-bottom: 100px;
 }
 .header {
   position: absolute;
-  z-index: 3;
+  z-index: 52;
   top: 0;
   left: 0;
   width: 100%;
@@ -132,20 +139,20 @@
   float: left;
   font-family: 'MinionProRegular';
   padding-left: 20px;
+  padding-top: 5px;
 }
 .header-link li {
   float: left;
   text-align: center;
 }
 .header-link li:first-child {
-  float: none;
-  padding-right: 35px;
+  margin-right: 10px;
 }
 .header-link li:last-child {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .header-link a {
-  font-size: 13px;
+  font-size: 12px;
   color: white;
 }
 .header-link a:hover {
@@ -155,19 +162,21 @@
   float: left;
   font-family: 'MinionProBold';
   color: white;
-  font-size: 23px;
-  padding-left: 26px;
-  padding-top: 3px;
+  font-size: 18px;
+  padding-left: 15px;
+  padding-top: 4px;
 }
 .telephone span {
   padding-right: 10px;
+  position: relative;
+  top: 2px;
 }
 .search {
   float: right;
   position: relative;
 }
 .search input[type="text"] {
-  width: 180px;
+  width: 205px;
   height: 29px;
   border: 0;
   outline: 0;
@@ -208,6 +217,7 @@
   border-right: 1px solid #010055;
   padding-top: 23px;
   padding: 0 4px;
+  width: 16.6%;
 }
 .nav > ul > li:first-child {
   padding-left: 0;
@@ -220,12 +230,17 @@
 .nav > ul > li > a {
   color: white;
   text-decoration: none;
-  display: block;
-  padding-top: 23px;
+  display: table-cell;
+  width: 132px;
+  height: 60px;
+  vertical-align: middle;
 }
 .sidebar {
   width: 435px;
-  float: right;
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+  z-index: 51;
 }
 .side-menu {
   width: 453px;
@@ -359,10 +374,7 @@
   padding-left: 5px;
 }
 .slide-text {
-  float: left;
-  width: 400px;
   font-family: 'MinionProBold';
-  margin-top: 280px;
 }
 .slide-text .title {
   font-size: 38px;
@@ -391,37 +403,40 @@
 }
 .sub-menu-block {
   background: rgba(0, 21, 69, 0.93);
-  margin-top: 8px;
+  margin-top: 11px;
 }
 .sub-menu {
   position: absolute;
-  left: -25px;
+  left: 0;
   padding-bottom: 20px;
   display: none;
+  z-index: 1000;
 }
 .sub-menu ul {
   float: left;
-  padding-left: 15px;
+  padding-left: 10px;
   padding-right: 10px;
+  width: 16.6%;
   border-right: 1px solid rgba(255, 255, 255, 0.11);
-}
-.sub-menu ul:first-child {
-  width: 133px;
-}
-.sub-menu ul:nth-child(2) {
-  width: 200px;
-}
-.sub-menu ul:nth-child(3) {
-  width: 96px;
-}
-.sub-menu ul:nth-child(4) {
-  width: 67px;
-}
-.sub-menu ul:nth-child(5) {
-  width: 123px;
+  /* &:first-child{
+					width: 133px;
+				}
+				&:nth-child(2){
+					width: 200px;
+				}
+				&:nth-child(3){
+					width: 96px;
+				}
+				&:nth-child(4){
+					width: 67px;
+				}
+				&:nth-child(5){
+					width: 123px;
+				} */
+
 }
 .sub-menu ul:last-child {
-  width: 96px;
+  /* width: 96px; */
   border-right: 0;
 }
 .sub-menu ul li {
@@ -430,8 +445,8 @@
 .sub-menu a {
   text-decoration: underline;
   color: white;
-  font-size: 10px;
-  font-family: 'LintelRegular';
+  font-size: 0.72em;
+  font-family: Arial, sans-serif;
 }
 .sub-menu a:hover {
   text-decoration: none;
@@ -819,4 +834,7 @@
 }
 .detail-social li:hover {
   opacity: 1;
+}
+.aside-pos .container {
+  position: relative;
 }

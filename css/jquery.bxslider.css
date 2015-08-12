@@ -7,11 +7,13 @@
 
 /** VARIABLES 
 ===================================*/
+
 /** RESET AND LAYOUT
 ===================================*/
+
 .bx-wrapper {
   position: relative;
-  margin: 0 auto 60px;
+  margin: 0 auto;
   padding: 0;
   *zoom: 1;
   -ms-touch-action: pan-y;
@@ -38,10 +40,14 @@ ul.bxslider {
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
   position: absolute;
-  bottom: 5px;
-  width: 100%;
+  bottom: 170px;
+  width: 1020px;
+  left: 50%;
+  margin-left: -510px;
+  z-index: 51;
 }
 /* LOADER */
+
 .bx-wrapper .bx-loading {
   min-height: 50px;
   height: 100%;
@@ -52,13 +58,15 @@ ul.bxslider {
   z-index: 2000;
 }
 /* PAGER */
+
 .bx-wrapper .bx-pager {
-  text-align: center;
+  text-align: left;
   font-size: .85em;
   font-family: Arial;
   font-weight: bold;
-  color: #666;
+  color: #666666;
   padding-top: 0;
+  padding-left: 155px;
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
   text-indent: -9999px;
@@ -67,12 +75,12 @@ ul.bxslider {
   height: 17px;
   margin: 0 3px;
   outline: 0;
-  background: url(../images/slide.png)no-repeat;
+  background: url(../images/slide.png) no-repeat;
 }
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active,
 .bx-wrapper .bx-pager.bx-default-pager a:focus {
-  background: url(../images/slide-a.png)no-repeat;
+  background: url(../images/slide-a.png) no-repeat;
 }
 .bx-wrapper .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
@@ -85,20 +93,17 @@ ul.bxslider {
   line-height: 0;
 }
 /* DIRECTION CONTROLS (NEXT / PREV) */
+
 .bx-wrapper .bx-prev {
-  left: -70px;
-  background: url(../images/slide-prev.png)no-repeat;
+  left: -65px;
+  background: url(../images/slide-prev.png) no-repeat;
 }
-
 .bx-wrapper .bx-next {
-  right: -40px;
-  background: url(../images/slide-next.png)no-repeat;
+  left: 465px;
+  background: url(../images/slide-next.png) no-repeat;
 }
-
 .bx-wrapper .bx-controls-direction a {
   position: absolute;
-  top: 50%;
-  margin-top: -26.5px;
   outline: 0;
   width: 50px;
   height: 53px;
@@ -109,6 +114,7 @@ ul.bxslider {
   display: none;
 }
 /* AUTO CONTROLS (START / STOP) */
+
 .bx-wrapper .bx-controls-auto {
   text-align: center;
 }
@@ -141,6 +147,7 @@ ul.bxslider {
   background-position: -86px -33px;
 }
 /* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
   text-align: left;
   width: 80%;
@@ -150,18 +157,30 @@ ul.bxslider {
   width: 35px;
 }
 /* IMAGE CAPTIONS */
+
 .bx-wrapper .bx-caption {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #666;
+  background: #666666;
   background: rgba(80, 80, 80, 0.75);
   width: 100%;
 }
 .bx-wrapper .bx-caption span {
-  color: #fff;
+  color: white;
   font-family: Arial;
   display: block;
   font-size: .85em;
   padding: 10px;
+}
+.bx-controls-direction {
+  width: 1020px;
+  position: absolute;
+  z-index: 51;
+  left: 50%;
+  top: 480px;
+  margin-left: -510px;
+}
+.text-slide{
+  width: 460px;
 }
